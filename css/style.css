@@ -1,0 +1,252 @@
+.dropbtn {
+  background-color: #081f3f;
+  color: white;
+  padding: 16px 16px 16px 16px;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0px 10px 0px;
+  width: 80%;
+  text-align: center;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  background-color: white;
+}
+
+.article {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px 15px 15px 15px;
+  margin: 15px 0px 15px 0px;
+}
+
+.show {
+  display:block;
+  position: relative;
+}
+
+
+body{
+  font-family: "Dosis", "Times";
+  background-color: rgb(255, 237, 213);
+}
+
+button{
+  font-family: "Dosis", "Times";
+}
+
+.header{
+  background-color: rgb(223, 157, 37);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  width: 100%;
+}
+
+p{
+  font-size: 16pt;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 20px 20px 20px;
+}
+
+li{
+  font-size: 16pt;
+}
+
+a {
+  text-align: center;
+  font-size: 18pt;
+}
+
+a:visited{
+  color: black;
+}
+
+h3{
+  font-size: 20pt;
+}
+
+
+
+
+/*main pages*/
+.play{
+  text-align: center;
+  color: rgb(223, 157, 37);
+  background-color: rgb(223, 157, 37);
+  padding: 20px;
+}
+
+#mainmenu li{
+  list-style: none;
+}
+
+#mainmenu ul{
+  padding-inline-start: 0px;;
+}
+
+#mainmenu li{
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+#mainmenu li a{
+  color: white;
+}
+
+.button{
+  margin: 20px 0px 20px 0px;
+}
+
+#truthbutton{
+  background-color: rgb(74, 1, 97);
+}
+
+#dgbutton{
+  background-color: navy;
+}
+
+#ssbutton{
+  background-color: green;
+}
+
+#wholebutton{
+  background-color: rgb(228, 213, 2);
+}
+
+#riskybutton{
+  background-color: red;
+}
+
+/*truth page*/
+#truth .dropbtn{
+  background-color: rgb(74, 1, 97);
+}
+
+#truthheader{
+  background-color: rgb(158, 94, 201);
+  color: rgb(74, 1, 97);
+}
+
+#truthplay{
+  background-color: rgb(158, 94, 201);
+}
+
+#truthplay a{
+  color: rgb(74, 1, 97);
+}
+
+#truthbody{
+  background-color: rgb(195, 180, 206);
+}
+
+/*dg page*/
+#games .dropbtn{
+  background-color: navy;
+  color: white;
+}
+
+#gamesheader {
+  background-color: cornflowerblue;
+  color: navy;
+}
+
+#gamesplay{
+  background-color: cornflowerblue;
+}
+
+#gamesplay a{
+  color: navy;
+}
+
+#gamesbody {
+  background-color: rgb(213, 231, 255);
+}
+
+/*ss page*/
+#ss .dropbtn{
+  background-color: green;
+  color: white;
+}
+
+#ssheader {
+  background-color: rgb(106, 168, 106);
+  color: green;
+}
+
+#ssplay{
+  background-color: rgb(106, 168, 106);
+}
+
+#ssplay a{
+  color: green;
+}
+
+#ssbody {
+  background-color: rgb(197, 221, 197);
+}
+
+/*wholesome page*/
+#wholesome .dropbtn{
+  background-color: rgb(228, 213, 2);
+  color: white;
+}
+
+#wholesomeheader {
+  background-color: rgb(253, 244, 116);
+  color: black;
+}
+
+#wholesomeplay{
+  background-color: rgb(253, 244, 116);
+}
+
+#wholesomeplay a{
+  color: black;
+}
+
+#wholesomebody {
+  background-color: rgb(238, 235, 195);
+}
+
+/*risky page*/
+#risky .dropbtn{
+  background-color: red;
+  color: white;
+}
+
+#riskyheader {
+  background-color: rgb(245, 97, 97);
+  color: rgb(136, 0, 0)
+}
+
+#riskyplay{
+  background-color: rgb(245, 97, 97);
+}
+
+#riskyplay a{
+  color: rgb(136, 0, 0)
+}
+
+#riskybody {
+  background-color: rgb(236, 177, 177);
+}
